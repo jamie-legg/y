@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sneakers_heats",
+  "info": {
+    "name": "heat",
+    "icon": "thermometer-full"
+  },
+  "options": {},
+  "attributes": {
+    "silhouette": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "brand": {
+      "type": "string"
+    },
+    "manufacturer": {
+      "type": "string"
+    },
+    "releasedate": {
+      "type": "date"
+    },
+    "released": {
+      "type": "boolean"
+    }
+  }
+}

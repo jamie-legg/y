@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sneakers",
+  "info": {
+    "name": "sneakers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heat": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sneakers.heat"
+    },
+    "retailprice": {
+      "type": "float"
+    },
+    "resaleprice": {
+      "type": "float"
+    }
+  }
+}
